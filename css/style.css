@@ -120,12 +120,6 @@ h1, h2, h3,
  --bs-navbar-border-color: var(--bf-pink);
 }
 
-
-/* TASK 7: The pink button
-   Find the button's --bs- variables for the background, border,
-   hover and active states. Hint: You will be overriding 6 
-   --bs- variables for this button. */
-
 .btn-primary {
     --bs-btn-color: var(--bf-white);
     --bs-btn-bg: var(--bf-pink);
@@ -141,14 +135,20 @@ h1, h2, h3,
     --bs-btn-disabled-border-color: var(--bf-dark-pink);
 }
 
-
-/* TASK 8: The orange button
-   Same variables as Task 7, plus the text colour variables. */
-
 .btn-warning {
-
+    --bs-btn-color: var(--bf-black);
+    --bs-btn-bg: var(--bf-orange);
+    --bs-btn-border-color: var(--bf-orange);
+    --bs-btn-hover-color:var(--bf-white);
+    --bs-btn-hover-bg: var(--bf-dark-orange);
+    --bs-btn-hover-border-color: var(--bf-dark-orange);
+    --bs-btn-active-color: var(--bf-white);
+    --bs-btn-active-bg: var(--bf-dark-orange);
+    --bs-btn-active-border-color: var(--bf-dark-orange);
+    --bs-btn-disabled-color: var(--bf-black);
+    --bs-btn-disabled-bg: var(--bf-dark-orange);
+    --bs-btn-disabled-border-color: var(--bf-dark-orange);
 }
-
 
 /* TASK 9: The artist cards
    Find the card's --bs- variable for its background colour.
