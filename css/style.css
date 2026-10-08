@@ -59,6 +59,13 @@
 
 
 }
+h1, h2, h3,
+.logo,
+.footer-logo,
+.form-heading,
+.blockquote {
+   font-family: var(--bf-font-display);
+}
 
 
 /* TASK 3: Fonts and sizes in your --bf variables
