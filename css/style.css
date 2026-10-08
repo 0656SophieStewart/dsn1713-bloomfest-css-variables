@@ -166,12 +166,25 @@ h1, h2, h3,
 --bs-card-bg: var(--bf-pink);
 }
 
-
-/* TASK 10: The form focus glow
-   Bootstrap has NO variable for this. Use DevTools to see which
-   two properties Bootstrap sets on .form-control:focus, then
-   set them here using your lime variables. */
-
 .form-control:focus {
+    color: var(--bf-lime);
+    background-color: var(--bf-black);
+    border-color: var(--bf-lime);
+}
 
+
+.text-primary {
+    --bs-text-opacity:    1: 1;
+    color: var(--bf-pink) !important;
+}
+
+
+
+.border-primary {
+    --bs-border-opacity: 1;
+    border-color: var(--bf-pink) !important;
+}
+a {
+    color: var(--bf-lime);
+    text-decoration: underline;
 }
