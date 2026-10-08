@@ -127,7 +127,18 @@ h1, h2, h3,
    --bs- variables for this button. */
 
 .btn-primary {
-
+    --bs-btn-color: var(--bf-white);
+    --bs-btn-bg: var(--bf-pink);
+    --bs-btn-border-color: var(--bf-pink);
+    --bs-btn-hover-color: var(--bf-white);
+    --bs-btn-hover-bg: var(--bf-dark-pink);
+    --bs-btn-hover-border-color: var(--bf-dark-pink);
+    --bs-btn-active-color: var(--bf-white);
+    --bs-btn-active-bg: var(--bf-dark-pink);
+    --bs-btn-active-border-color: var(--bf-dark-pink);
+    --bs-btn-disabled-color: var(--bf-black);
+    --bs-btn-disabled-bg: var(--bf-dark-pink);
+    --bs-btn-disabled-border-color: var(--bf-dark-pink);
 }
 
 
