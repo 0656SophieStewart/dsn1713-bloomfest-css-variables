@@ -101,20 +101,16 @@ h1, h2, h3,
 }
 
 
-/* TASK 5: Section backgrounds using your --bf variables.
-   Site header uses black, schedule section uses charcoal 
-   and quote section uses purple. */
-
 .site-header {
-
+ background-color: var(--bf-black);
 }
 
 .schedule-section {
-
+ background-color: var(--bf-charcoal);
 }
 
 .quote-section {
-
+ background-color: var(--bf-purple);
 }
 
 
