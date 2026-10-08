@@ -1,31 +1,61 @@
-/* ============================================================
-   Bloom Fest: Theming Bootstrap with CSS Variables
-
-   Complete the 10 tasks in Brightspace. Work in this file only.
-
-   The selectors are written for you. Your job is to fill in
-   each empty block. 
-   
-   For the Bootstrap tasks, you'll need to
-   find the right --bs- variable yourself, in DevTools or in
-   the Bootstrap docs. This requires you to investigate a bit.
-   ============================================================ */
-
 
 :root {
 
-  /* TASK 1: Your custom variables
-     Type them here from the Design Tokens table in the Brightspace:
-     colours first, then the -rgb versions, then fonts and sizes. */
+--bf-black: #0a0a0a;
+--bf-black-rgb: 10, 10, 10;
+
+--bf-charcoal: #111111;
+--bf-charcoal-rgb: 17, 17, 17;
+
+--bf-white: #ffffff;
+--bf-white-rgb: 255, 255, 255;
+
+--bf-pink: #ff3ea5;
+--bf-pink-rgb: 255, 62, 165;
+
+--bf-dark-pink: #cb237f;
+--bf-dark-pink-rgb: 203, 35, 127;
+
+--bf-lime: #aaff00;
+--bf-lime-rgb: 170, 255, 0;
+
+--bf-sky: #38d9f5;
+--bf-sky-rgb: 56, 217, 245;
+
+--bf-orange: #ff7c2a;
+--bf-orange-rgb: 255, 124, 42;
+
+--bf-dark-orange: #d15f18;
+--bf-dark-orange-rgb: 209, 95, 24;
+
+--bf-purple: #7c3aed;
+--bf-purple-rgb: 124, 58, 237;
 
 
+--bf-font-display: 'Bebas Neue', Impact, sans-serif;
+--bf-font-body: 'Plus Jakarta Sans', sans-serif;
+--bf-fs-hero: clamp(4rem, 10vw, 8rem);
+--bf-space-section: 5rem;
+--bf-radius: 20px;
 
-  /* TASK 2: Bootstrap overrides
-     Find Bootstrap's variables for the page background, text
-     colour, body font, corner radius, primary colour, info
-     colour and link colour. Point each one at your variables.
-     Remember: some colours also need their -rgb twin. */
+--page-background:var(--bf-black);
 
+--body-text: var(--bf-white);
+
+--body-font: var(--bf-font-body);
+
+--bs-border-radius: var(--bf-radius);
+
+--primary-color: var(--bf-pink);
+
+
+--primary-color-rgb: var(--bf-pink-rgb);
+
+--info-color: var(--bf-sky);
+--info-color-rgb: var(--bf-sky-rgb);
+
+--link-color: var(--bf-lime);
+--link-color-rgb: var(--bf-lime-rgb);
 
 
 }
