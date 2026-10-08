@@ -68,26 +68,21 @@ h1, h2, h3,
 }
 
 
-/* TASK 3: Fonts and sizes in your --bf variables
-   Replace ______________ with accessing the variable set in :root. 
-   Headings use the display font. The hero title uses the hero
-   font size. Sections get your section spacing above and below. */
-
 h1, h2, h3,
 .logo,
 .footer-logo,
 .form-heading,
 .blockquote {
-   font-family: ________________;
+   font-family: var(--bf-font-display);
 }
 
 .hero-title {
-   font-size: ________________;
+   font-size: var(--bf-fs-hero);
 }
 
 .section {
-   padding-top: ________________;
-   padding-bottom: ________________;
+   padding-top: var(--bf-space-section);
+   padding-bottom: var(--bf-space-section);
 }
 
 
