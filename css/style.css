@@ -114,13 +114,10 @@ h1, h2, h3,
 }
 
 
-/* TASK 6: The navbar
-   Find the navbar's --bs- variables for the hover colour and
-   the active (current page) colour. Change in the selector by 
-   overriding the correct --bs- variables. */
-
 .navbar {
-
+ --bs-navbar-hover-color: var(--bf-white);
+ --bs-navbar-active-color: var(--bf-lime);
+ --bs-navbar-border-color: var(--bf-pink);
 }
 
 
